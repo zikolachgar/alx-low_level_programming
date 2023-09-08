@@ -16,9 +16,10 @@ int main(void)
 	if (r > 0)
 		printf("%d is positive", r);
 	else if (r==0)
-		printf("%d is zero",r)
+		printf("%d is zero", r)
 	else 
 		printf("%d is negative", r);
+	printf("\n");
 	return(0);
 		
 }
