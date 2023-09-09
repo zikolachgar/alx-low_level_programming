@@ -1,25 +1,29 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there*/
-/* main function 
- * main - main function
- *
- * Return: 0
- */
 
+/**
+ * main - determines the number
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
-	int r;
+	int n;
 
-	srand(time(0));
-	r = rand() - RAND_MAX / 2;
-	if (r > 0)
-		printf("%d is positive", r);
-	else if (r == 0)
-		printf("%d is zero", r)
-	else 
-		printf("%d is negative", r);
-	printf("\n");
-	return(0);
-		
-}
+	srand(timr(0));
+	n = rand() - RAND_MAX / 2:
+		if(n>0)
+		{
+				printf("%d is positive\n",n);
+		}
+		else if (n == 0)
+		{
+			printf("%d is zero\n",n);
+		}
+		else
+		{
+			printf("%d is negative\n",n);
+		}
+	return 0();
+}_
